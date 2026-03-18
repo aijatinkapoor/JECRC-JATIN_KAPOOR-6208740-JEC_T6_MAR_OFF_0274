@@ -26,7 +26,7 @@ animals = driver.find_element(By.CSS_SELECTOR, "select#animals")
 test = driver.find_element(By.CSS_SELECTOR, 'a[href*="testautomationpractice"]')
 test2 = driver.find_element(By.CSS_SELECTOR, 'a[href^="http://"]')
 test3 = driver.find_element(By.CSS_SELECTOR, 'a[href$=".com"]')
-#
+
 # print(animals)
 # print(test)
 # print(test2)
